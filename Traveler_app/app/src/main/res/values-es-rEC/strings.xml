@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_send">Enviar</string>
+    <string name="txt_hint_1">Nombre y Apellido</string>
+    <string name="txt_hint_3">Estatura</string>
+    <string name="txt_hint_4">Correo Electrónico</string>
+    <string name="current_date">Fecha Actual:</string>
+    <string name="title_settings">Configuración</string>
+    <string name="app_version">Versión 1.0</string>
+    <string name="btn_back">Volver</string>
+    <string name="real_time">Ubicación en tiempo real</string>
+    <string name="background">Segundo plano</string>
+    <string name="battery">Ahorro de batería</string>
+    <string name="sesion_close">Cerrar sesión</string>
+    <string name="title_main">Bienvenido</string>
+    <string name="btn_settings">¡Vamos!</string>
+</resources>
