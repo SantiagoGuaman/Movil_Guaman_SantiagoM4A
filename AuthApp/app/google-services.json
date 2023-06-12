@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "869688127909",
+    "project_id": "login-projectfb",
+    "storage_bucket": "login-projectfb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869688127909:android:54b0cd7b5bed375705b84c",
+        "android_client_info": {
+          "package_name": "com.tecazuay.authapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869688127909-kugdau1k9thopu9hgi0cokraesujqr07.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOVHtT7QRpWMJ8mSEHjrgA2ytCWCxfn4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869688127909-kugdau1k9thopu9hgi0cokraesujqr07.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

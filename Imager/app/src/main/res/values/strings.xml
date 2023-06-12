@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Imager</string>
+    <string name="desc_iv">New Image</string>
+    <string name="desc_btn_img">New Button Image</string>
+
+</resources>

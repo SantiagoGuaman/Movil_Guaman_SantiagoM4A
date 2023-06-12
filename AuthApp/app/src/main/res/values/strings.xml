@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AuthApp</string>
+    <string name="login">Log In</string>
+    <string name="btn_login">Log In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="welcome_user">Welcome User</string>
+    <string name="log_out">Log Out</string>
+
+</resources>
