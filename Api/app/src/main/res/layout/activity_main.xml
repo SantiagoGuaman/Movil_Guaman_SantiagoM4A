@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="83dp"
+        android:text="@string/language_detector"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.986" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginEnd="173dp"
+        android:layout_marginBottom="84dp"
+        android:text="@string/give_text"
+        app:layout_constraintBottom_toTopOf="@+id/txt_detect_string"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_try_another"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="107dp"
+        android:text="@string/try_another_one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/txt_detect_string"
+        android:layout_width="318dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="48dp"
+        android:ems="10"
+        android:hint="@string/write_here"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/btn_analyze_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/txtview_answer"
+        android:layout_width="273dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="145dp"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="47dp"
+        android:gravity="center"
+        android:text="@string/answer"
+        app:layout_constraintBottom_toTopOf="@+id/btn_try_another"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_analyze_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="157dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="45dp"
+        android:text="@string/analyze"
+        app:layout_constraintBottom_toTopOf="@+id/txtview_answer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

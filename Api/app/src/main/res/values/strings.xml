@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Api</string>
+    <string name="give_text">Put your Text and I will try to analyze their Languaje!</string>
+    <string name="write_here">Write Here!</string>
+    <string name="analyze">Analyze</string>
+    <string name="language_detector">Language Detector</string>
+    <string name="answer">My answer is Here!</string>
+    <string name="try_another_one">Try Another One</string>
+    <string name="sentiment_analysis">Sentiment Analysis</string>
+    <string name="sentiment_desc">Analyze input text using advanced Sentiment Analysis to determine if the input is positive, negative, or neutral. (Solo Inglés)</string>
+    <string name="analysis">Analysis</string>
+    <string name="back">Back</string>
+</resources>
